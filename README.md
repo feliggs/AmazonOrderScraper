@@ -1,6 +1,7 @@
 # AmazonOrderScraper
 
 This project automates the retrieval of your Amazon orders, downloads product images, and creates a dynamic collage of your recent purchases using Python and JavaScript.
+Since I am based in Germany, this project uses amazon.de as the default. If you want to use it with another Amazon site (like amazon.com or amazon.co.uk), you need to adjust the base URL accordingly. Also, the detection of delivery dates (like "today" or "tomorrow") currently relies on German strings (e.g., "Zustellung heute" for "Delivery today"). Since I don't have a UK/US Amazon account, I couldn't test this-so you'll need to make these adjustments yourself for other languages and marketplaces.
 
 ## Features
 
