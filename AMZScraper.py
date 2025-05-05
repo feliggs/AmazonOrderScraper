@@ -327,7 +327,7 @@ def main():
                 print(f"Pending order (general): {order.product_names}, Delivery Date: {order.delivery_date}, URLs: {order.product_urls}")
 
             # Download images for all orders and create a collage
-            tmp_images = get_images(orders_total)
+            tmp_images = get_images(orders_today)
             create_dynamic_collage(tmp_images, output_path="collage.png", tile_size=(300, 300))
 
             time.sleep(120)  # Wait for 2 minutes before repeating
